@@ -1,0 +1,865 @@
+{
+    "current": {
+        "feelsLike": {
+            "unit": "℃",
+            "value": "27"
+        },
+        "humidity": {
+            "unit": "%",
+            "value": "54"
+        },
+        "pressure": {
+            "unit": "hPa",
+            "value": "1013"
+        },
+        "pubTime": "2020-09-13T11:58:04+08:00",
+        "temperature": {
+            "unit": "℃",
+            "value": "26"
+        },
+        "uvIndex": "4",
+        "visibility": {
+            "unit": "km",
+            "value": ""
+        },
+        "weather": "1",
+        "wind": {
+            "direction": {
+                "unit": "°",
+                "value": "315"
+            },
+            "speed": {
+                "unit": "km/h",
+                "value": "20.0"
+            }
+        }
+    },
+    "forecastDaily": {
+        "aqi": {
+            "brandInfo": {
+                "brands": [
+                    {
+                        "brandId": "caiyun",
+                        "logo": "http://f5.market.mi-img.com/download/MiSafe/07fa34263d698a7a9a8050dde6a7c63f8f243dbf3/a.webp",
+                        "names": {
+                            "zh_TW": "彩雲天氣",
+                            "en_US": "彩云天气",
+                            "zh_CN": "彩云天气"
+                        },
+                        "url": ""
+                    }
+                ]
+            },
+            "pubTime": "2020-09-13T00:00:00+08:00",
+            "status": 0,
+            "value": [
+                32,
+                50,
+                52,
+                61,
+                37,
+                13,
+                34,
+                48,
+                43,
+                25,
+                53,
+                65,
+                39,
+                29,
+                35
+            ]
+        },
+        "precipitationProbability": {
+            "status": 0,
+            "value": [
+                "25",
+                "25",
+                "72",
+                "80",
+                "80"
+            ]
+        },
+        "pubTime": "2020-09-13T09:00:00+08:00",
+        "status": 0,
+        "sunRiseSet": {
+            "status": 0,
+            "value": [
+                {
+                    "from": "2020-09-13T05:37:00+08:00",
+                    "to": "2020-09-13T18:04:00+08:00"
+                },
+                {
+                    "from": "2020-09-14T05:37:00+08:00",
+                    "to": "2020-09-14T18:03:00+08:00"
+                },
+                {
+                    "from": "2020-09-15T05:38:00+08:00",
+                    "to": "2020-09-15T18:01:00+08:00"
+                },
+                {
+                    "from": "2020-09-16T05:39:00+08:00",
+                    "to": "2020-09-16T18:00:00+08:00"
+                },
+                {
+                    "from": "2020-09-17T05:39:00+08:00",
+                    "to": "2020-09-17T17:59:00+08:00"
+                },
+                {
+                    "from": "2020-09-18T05:40:00+08:00",
+                    "to": "2020-09-18T17:58:00+08:00"
+                },
+                {
+                    "from": "2020-09-19T05:40:00+08:00",
+                    "to": "2020-09-19T17:56:00+08:00"
+                },
+                {
+                    "from": "2020-09-20T05:41:00+08:00",
+                    "to": "2020-09-20T17:55:00+08:00"
+                },
+                {
+                    "from": "2020-09-21T05:42:00+08:00",
+                    "to": "2020-09-21T17:54:00+08:00"
+                },
+                {
+                    "from": "2020-09-22T05:42:00+08:00",
+                    "to": "2020-09-22T17:52:00+08:00"
+                },
+                {
+                    "from": "2020-09-23T05:43:00+08:00",
+                    "to": "2020-09-23T17:51:00+08:00"
+                },
+                {
+                    "from": "2020-09-24T05:43:00+08:00",
+                    "to": "2020-09-24T17:50:00+08:00"
+                },
+                {
+                    "from": "2020-09-25T05:44:00+08:00",
+                    "to": "2020-09-25T17:49:00+08:00"
+                },
+                {
+                    "from": "2020-09-26T05:45:00+08:00",
+                    "to": "2020-09-26T17:47:00+08:00"
+                },
+                {
+                    "from": "2020-09-27T05:45:00+08:00",
+                    "to": "2020-09-27T17:46:00+08:00"
+                }
+            ]
+        },
+        "temperature": {
+            "status": 0,
+            "unit": "℃",
+            "value": [
+                {
+                    "from": "28",
+                    "to": "21"
+                },
+                {
+                    "from": "29",
+                    "to": "20"
+                },
+                {
+                    "from": "27",
+                    "to": "22"
+                },
+                {
+                    "from": "27",
+                    "to": "21"
+                },
+                {
+                    "from": "25",
+                    "to": "20"
+                },
+                {
+                    "from": "24",
+                    "to": "18"
+                },
+                {
+                    "from": "27",
+                    "to": "19"
+                },
+                {
+                    "from": "27",
+                    "to": "20"
+                },
+                {
+                    "from": "24",
+                    "to": "20"
+                },
+                {
+                    "from": "24",
+                    "to": "20"
+                },
+                {
+                    "from": "22",
+                    "to": "18"
+                },
+                {
+                    "from": "23",
+                    "to": "19"
+                },
+                {
+                    "from": "25",
+                    "to": "20"
+                },
+                {
+                    "from": "25",
+                    "to": "20"
+                },
+                {
+                    "from": "25",
+                    "to": "21"
+                }
+            ]
+        },
+        "weather": {
+            "status": 0,
+            "value": [
+                {
+                    "from": "1",
+                    "to": "1"
+                },
+                {
+                    "from": "2",
+                    "to": "2"
+                },
+                {
+                    "from": "7",
+                    "to": "7"
+                },
+                {
+                    "from": "7",
+                    "to": "8"
+                },
+                {
+                    "from": "8",
+                    "to": "7"
+                },
+                {
+                    "from": "7",
+                    "to": "0"
+                },
+                {
+                    "from": "1",
+                    "to": "0"
+                },
+                {
+                    "from": "2",
+                    "to": "2"
+                },
+                {
+                    "from": "2",
+                    "to": "2"
+                },
+                {
+                    "from": "7",
+                    "to": "7"
+                },
+                {
+                    "from": "7",
+                    "to": "7"
+                },
+                {
+                    "from": "7",
+                    "to": "0"
+                },
+                {
+                    "from": "7",
+                    "to": "7"
+                },
+                {
+                    "from": "7",
+                    "to": "2"
+                },
+                {
+                    "from": "7",
+                    "to": "1"
+                }
+            ]
+        },
+        "wind": {
+            "direction": {
+                "status": 0,
+                "unit": "°",
+                "value": [
+                    {
+                        "from": "315",
+                        "to": "315"
+                    },
+                    {
+                        "from": "90",
+                        "to": "90"
+                    },
+                    {
+                        "from": "90",
+                        "to": "0"
+                    },
+                    {
+                        "from": "45",
+                        "to": "45"
+                    },
+                    {
+                        "from": "90",
+                        "to": "45"
+                    },
+                    {
+                        "from": "0",
+                        "to": "315"
+                    },
+                    {
+                        "from": "135",
+                        "to": "0"
+                    },
+                    {
+                        "from": "45",
+                        "to": "45"
+                    },
+                    {
+                        "from": "90",
+                        "to": "45"
+                    },
+                    {
+                        "from": "0",
+                        "to": "45"
+                    },
+                    {
+                        "from": "45",
+                        "to": "225"
+                    },
+                    {
+                        "from": "90",
+                        "to": "0"
+                    },
+                    {
+                        "from": "90",
+                        "to": "90"
+                    },
+                    {
+                        "from": "135",
+                        "to": "45"
+                    },
+                    {
+                        "from": "90",
+                        "to": "45"
+                    }
+                ]
+            },
+            "speed": {
+                "status": 0,
+                "unit": "km/h",
+                "value": [
+                    {
+                        "from": "20.0",
+                        "to": "20.0"
+                    },
+                    {
+                        "from": "29.0",
+                        "to": "29.0"
+                    },
+                    {
+                        "from": "20.0",
+                        "to": "20.0"
+                    },
+                    {
+                        "from": "20.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "20.0",
+                        "to": "20.0"
+                    },
+                    {
+                        "from": "29.0",
+                        "to": "20.0"
+                    },
+                    {
+                        "from": "20.0",
+                        "to": "20.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    },
+                    {
+                        "from": "0.0",
+                        "to": "0.0"
+                    }
+                ]
+            }
+        }
+    },
+    "forecastHourly": {
+        "aqi": {
+            "brandInfo": {
+                "brands": [
+                    {
+                        "brandId": "caiyun",
+                        "logo": "http://f5.market.mi-img.com/download/MiSafe/07fa34263d698a7a9a8050dde6a7c63f8f243dbf3/a.webp",
+                        "names": {
+                            "zh_TW": "彩雲天氣",
+                            "en_US": "彩云天气",
+                            "zh_CN": "彩云天气"
+                        },
+                        "url": ""
+                    }
+                ]
+            },
+            "pubTime": "2020-09-13T13:00:00+08:00",
+            "status": 0,
+            "value": [
+                27,
+                29,
+                30,
+                31,
+                31,
+                33,
+                33,
+                34,
+                36,
+                37,
+                39,
+                40,
+                43,
+                44,
+                47,
+                49,
+                50,
+                52,
+                54,
+                54,
+                54,
+                52,
+                51
+            ]
+        },
+        "desc": "逐小时预报",
+        "status": 0,
+        "temperature": {
+            "pubTime": "2020-09-13T13:00:00+08:00",
+            "status": 0,
+            "unit": "℃",
+            "value": [
+                24,
+                25,
+                26,
+                25,
+                25,
+                24,
+                23,
+                22,
+                21,
+                20,
+                20,
+                20,
+                20,
+                20,
+                21,
+                21,
+                22,
+                23,
+                24,
+                25,
+                26,
+                27,
+                28
+            ]
+        },
+        "weather": {
+            "pubTime": "2020-09-13T13:00:00+08:00",
+            "status": 0,
+            "value": [
+                2,
+                1,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                1,
+                1,
+                2,
+                2,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                2,
+                2
+            ]
+        },
+        "wind": {
+            "status": 0,
+            "value": [
+                {
+                    "datetime": "2020-09-13T13:00:00.000+08:00",
+                    "direction": "356.38",
+                    "speed": "11.75"
+                },
+                {
+                    "datetime": "2020-09-13T14:00:00.000+08:00",
+                    "direction": "356.89",
+                    "speed": "11.2"
+                },
+                {
+                    "datetime": "2020-09-13T15:00:00.000+08:00",
+                    "direction": "2.11",
+                    "speed": "10.72"
+                },
+                {
+                    "datetime": "2020-09-13T16:00:00.000+08:00",
+                    "direction": "25.93",
+                    "speed": "11.77"
+                },
+                {
+                    "datetime": "2020-09-13T17:00:00.000+08:00",
+                    "direction": "37.99",
+                    "speed": "12.83"
+                },
+                {
+                    "datetime": "2020-09-13T18:00:00.000+08:00",
+                    "direction": "52.74",
+                    "speed": "8.86"
+                },
+                {
+                    "datetime": "2020-09-13T19:00:00.000+08:00",
+                    "direction": "61.19",
+                    "speed": "7.25"
+                },
+                {
+                    "datetime": "2020-09-13T20:00:00.000+08:00",
+                    "direction": "72.05",
+                    "speed": "7.63"
+                },
+                {
+                    "datetime": "2020-09-13T21:00:00.000+08:00",
+                    "direction": "70.91",
+                    "speed": "7.74"
+                },
+                {
+                    "datetime": "2020-09-13T22:00:00.000+08:00",
+                    "direction": "95.09",
+                    "speed": "5.97"
+                },
+                {
+                    "datetime": "2020-09-13T23:00:00.000+08:00",
+                    "direction": "108.64",
+                    "speed": "4.51"
+                },
+                {
+                    "datetime": "2020-09-14T00:00:00.000+08:00",
+                    "direction": "115.16",
+                    "speed": "2.77"
+                },
+                {
+                    "datetime": "2020-09-14T01:00:00.000+08:00",
+                    "direction": "40.08",
+                    "speed": "1.03"
+                },
+                {
+                    "datetime": "2020-09-14T02:00:00.000+08:00",
+                    "direction": "32.1",
+                    "speed": "1.67"
+                },
+                {
+                    "datetime": "2020-09-14T03:00:00.000+08:00",
+                    "direction": "27.69",
+                    "speed": "2.5"
+                },
+                {
+                    "datetime": "2020-09-14T04:00:00.000+08:00",
+                    "direction": "34.75",
+                    "speed": "3.54"
+                },
+                {
+                    "datetime": "2020-09-14T05:00:00.000+08:00",
+                    "direction": "42.22",
+                    "speed": "4.29"
+                },
+                {
+                    "datetime": "2020-09-14T06:00:00.000+08:00",
+                    "direction": "58.64",
+                    "speed": "5.57"
+                },
+                {
+                    "datetime": "2020-09-14T07:00:00.000+08:00",
+                    "direction": "50.75",
+                    "speed": "4.63"
+                },
+                {
+                    "datetime": "2020-09-14T08:00:00.000+08:00",
+                    "direction": "79.67",
+                    "speed": "7.45"
+                },
+                {
+                    "datetime": "2020-09-14T09:00:00.000+08:00",
+                    "direction": "69.35",
+                    "speed": "5.37"
+                },
+                {
+                    "datetime": "2020-09-14T10:00:00.000+08:00",
+                    "direction": "51.32",
+                    "speed": "5.77"
+                },
+                {
+                    "datetime": "2020-09-14T11:00:00.000+08:00",
+                    "direction": "63.59",
+                    "speed": "6.63"
+                }
+            ]
+        }
+    },
+    "indices": {
+        "indices": [
+            {
+                "type": "uvIndex",
+                "value": "5"
+            },
+            {
+                "type": "humidity",
+                "value": "54"
+            },
+            {
+                "type": "feelsLike",
+                "value": "27"
+            },
+            {
+                "type": "pressure",
+                "value": "1013"
+            },
+            {
+                "type": "carWash",
+                "value": "0"
+            },
+            {
+                "type": "sports",
+                "value": "0"
+            }
+        ],
+        "pubTime": "",
+        "status": 0
+    },
+    "alerts": [],
+    "yesterday": {
+        "aqi": "",
+        "date": "2020-09-12T12:00:00+08:00",
+        "status": 0,
+        "sunRise": "2020-09-12T05:36:00+08:00",
+        "sunSet": "2020-09-12T18:05:00+08:00",
+        "tempMax": "27",
+        "tempMin": "22",
+        "weatherEnd": "1",
+        "weatherStart": "7",
+        "windDircEnd": "315",
+        "windDircStart": "0",
+        "windSpeedEnd": "0.0",
+        "windSpeedStart": "20.0"
+    },
+    "url": {
+        "weathercn": "",
+        "caiyun": ""
+    },
+    "brandInfo": {
+        "brands": [
+            {
+                "brandId": "caiyun",
+                "logo": "http://f5.market.mi-img.com/download/MiSafe/069835733640846b1b2613a855328d2b6df404343/a.webp",
+                "names": {
+                    "zh_TW": "彩雲天氣",
+                    "en_US": "彩云天气",
+                    "zh_CN": "彩云天气"
+                },
+                "url": ""
+            },
+            {
+                "brandId": "weatherbj",
+                "logo": "",
+                "names": {
+                    "zh_TW": "北京气象局",
+                    "en_US": "北京气象局",
+                    "zh_CN": "北京气象局"
+                },
+                "url": ""
+            }
+        ]
+    },
+    "preHour": [
+        {
+            "feelsLike": {
+                "unit": "℃",
+                "value": "26"
+            },
+            "humidity": {
+                "unit": "%",
+                "value": "56"
+            },
+            "pressure": {
+                "unit": "hPa",
+                "value": "1017"
+            },
+            "pubTime": "2020-09-13T12:00:00+08:00",
+            "temperature": {
+                "unit": "℃",
+                "value": "25"
+            },
+            "uvIndex": "4",
+            "visibility": {
+                "unit": "km",
+                "value": ""
+            },
+            "weather": "1",
+            "wind": {
+                "direction": {
+                    "unit": "°",
+                    "value": "0"
+                },
+                "speed": {
+                    "unit": "km/h",
+                    "value": "0.0"
+                }
+            },
+            "aqi": {
+                "aqi": "29",
+                "brandInfo": {
+                    "brands": [
+                        {
+                            "brandId": "CNEMC",
+                            "logo": "",
+                            "names": {
+                                "zh_TW": "中國環境監測總站",
+                                "en_US": "CNEMC",
+                                "zh_CN": "中国环境监测总站"
+                            },
+                            "url": ""
+                        }
+                    ]
+                },
+                "co": "1.1",
+                "no2": "35",
+                "o3": "77",
+                "pm10": "29",
+                "pm25": "18",
+                "primary": "",
+                "pubTime": "2020-09-13T10:00:00+08:00",
+                "so2": "6",
+                "src": "中国环境监测总站",
+                "status": 0,
+                "suggest": "空气很好，快呼吸新鲜空气，拥抱大自然吧",
+                "pm25Desc": "PM2.5能够在大气中停留很长时间，并可随呼吸进入体内，积聚在气管或肺中，影响身体健康",
+                "pm10Desc": "PM10指的是直径小于或等于10微米的颗粒物，又称为可吸入颗粒物",
+                "no2Desc": "二氧化氮有刺激性特殊臭味，但浓度低时人体不会感知到",
+                "so2Desc": "人为的二氧化硫主要来源为家庭取暖，发电和机动车而燃烧含有硫磺的矿物燃料，以及对含有硫磺的矿物的冶炼",
+                "coDesc": "一氧化碳八成来自汽车尾气，交通高峰期时，公路沿线产生的CO浓度会高于平常",
+                "o3Desc": "臭氧俗称晴空杀手，无色无味，但对人体的伤害不比PM2.5低，浓度高时建议减少夏季午后的外出活动，如果不开窗效果更佳"
+            }
+        }
+    ],
+    "sourceMaps": {
+        "current": {
+            "feelsLike": "weatherbj(locationKey=101020500)",
+            "weather": "weatherbj(locationKey=101020500)",
+            "temperature": "weatherbj(locationKey=101020500)",
+            "humidity": "weatherbj(locationKey=101020500)",
+            "pressure": "weatherbj(locationKey=101020500)",
+            "windSpeed": "weatherbj(locationKey=101020500)",
+            "uvIndex": "accucn(locationKey=74748,locale=zh_CN)"
+        },
+        "indices": {
+            "feelsLikeV1": "weatherbj(locationKey=101020500)",
+            "pressureV1": "weatherbj(locationKey=101020500)",
+            "uvIndexV1": "weatherbj(locationKey=101020500)",
+            "sportsV1": "weatherbj(locationKey=101020500)",
+            "carWashV1": "weatherbj(locationKey=101020500)"
+        },
+        "daily": {
+            "preciProbability": "accucn(locationKey=74748,locale=zh_CN)",
+            "weather": "weatherbj(locationKey=101020500)",
+            "temperature": "weatherbj(locationKey=101020500)",
+            "sunRiseSet": "weatherbj(locationKey=101020500)",
+            "aqi": "caiyun(locationKey=31.363,121.263,locale=zh_CN)",
+            "wind": "weatherbj(locationKey=101020500)"
+        },
+        "clientInfo": {
+            "appVersion": 12020502,
+            "isLocated": true,
+            "isGlobal": false,
+            "appKey": "weather20151024",
+            "locale": "zh_CN"
+        },
+        "hourly": {
+            "weather": "caiyun(locationKey=31.363,121.263,locale=zh_CN)",
+            "temperature": "caiyun(locationKey=31.363,121.263,locale=zh_CN)",
+            "aqi": "caiyun(locationKey=31.363,121.263,locale=zh_CN)"
+        }
+    },
+    "updateTime": 1599969722568,
+    "aqi": {
+        "aqi": "32",
+        "brandInfo": {
+            "brands": [
+                {
+                    "brandId": "CNEMC",
+                    "logo": "",
+                    "names": {
+                        "zh_TW": "中國環境監測總站",
+                        "en_US": "CNEMC",
+                        "zh_CN": "中国环境监测总站"
+                    },
+                    "url": ""
+                }
+            ]
+        },
+        "co": "0.72",
+        "no2": "22",
+        "o3": "106",
+        "pm10": "18",
+        "pm25": "16",
+        "primary": "",
+        "pubTime": "2020-09-13T11:00:00+08:00",
+        "so2": "6",
+        "src": "中国环境监测总站",
+        "status": 0,
+        "suggest": "空气很好，快呼吸新鲜空气，拥抱大自然吧",
+        "pm25Desc": "PM2.5指的是直径小于或等于2.5微米的颗粒物，又称为细颗粒物",
+        "pm10Desc": "PM10指的是直径小于或等于10微米的颗粒物，又称为可吸入颗粒物",
+        "no2Desc": "短期浓度超过200微克/立方米时，二氧化氮是一种引起呼吸道严重发炎的有毒气体",
+        "so2Desc": "人为的二氧化硫主要来源为家庭取暖，发电和机动车而燃烧含有硫磺的矿物燃料，以及对含有硫磺的矿物的冶炼",
+        "coDesc": "一氧化碳八成来自汽车尾气，交通高峰期时，公路沿线产生的CO浓度会高于平常",
+        "o3Desc": "臭氧俗称晴空杀手，无色无味，但对人体的伤害不比PM2.5低，浓度高时建议减少夏季午后的外出活动，如果不开窗效果更佳"
+    },
+    "chs": [
+        {
+            "type": "CT1"
+        }
+    ]
+}

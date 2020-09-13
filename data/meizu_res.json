@@ -1,0 +1,274 @@
+{
+    "code": "200",
+    "message": "",
+    "redirect": "",
+    "value": [
+        {
+            "alarms": [],
+            "city": "嘉定",
+            "cityid": 101020500,
+            "indexes": [
+                {
+                    "abbreviation": "gm",
+                    "alias": "",
+                    "content": "感冒容易发生，少去人群密集的场所有利于降低感冒的几率。",
+                    "level": "易发",
+                    "name": "感冒指数"
+                },
+                {
+                    "abbreviation": "yd",
+                    "alias": "",
+                    "content": "天气较好，且紫外线辐射不强，适宜户外运动。",
+                    "level": "适宜",
+                    "name": "运动指数"
+                },
+                {
+                    "abbreviation": "xc",
+                    "alias": "",
+                    "content": "洗车后，只能保持1天车辆清洁，不太适宜洗车。",
+                    "level": "较不适宜",
+                    "name": "洗车指数"
+                },
+                {
+                    "abbreviation": "ct",
+                    "alias": "",
+                    "content": "天气较热，衣物精干简洁，室内酌情添加空调衫。",
+                    "level": "热",
+                    "name": "穿衣指数"
+                },
+                {
+                    "abbreviation": "pp",
+                    "alias": "",
+                    "content": "建议用露质面霜打底，水质无油粉底霜，透明粉饼，粉质胭脂。",
+                    "level": "控油",
+                    "name": "化妆指数"
+                },
+                {
+                    "abbreviation": "uv",
+                    "alias": "",
+                    "content": "辐射较弱，涂擦SPF12-15、PA+护肤品。",
+                    "level": "弱",
+                    "name": "紫外线强度指数"
+                }
+            ],
+            "pm25": {
+                "advice": "0",
+                "aqi": "30",
+                "citycount": 667,
+                "cityrank": 68,
+                "co": "7",
+                "color": "0",
+                "level": "0",
+                "no2": "13",
+                "o3": "28",
+                "pm10": "30",
+                "pm25": "21",
+                "quality": "优",
+                "so2": "2",
+                "timestamp": "",
+                "upDateTime": "2020-09-13 10:00:00"
+            },
+            "provinceName": "上海市",
+            "realtime": {
+                "img": "1",
+                "sD": "60",
+                "sendibleTemp": "26",
+                "temp": "27",
+                "time": "2020-09-13 11:25:08",
+                "wD": "西北风",
+                "wS": "3级",
+                "weather": "多云",
+                "ziwaixian": "N/A"
+            },
+            "weatherDetailsInfo": {
+                "publishTime": "2020-09-13 11:00:00",
+                "weather3HoursDetailsInfos": [
+                    {
+                        "endTime": "2020-09-13 15:00:00",
+                        "highestTemperature": "27",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "27",
+                        "precipitation": "0",
+                        "startTime": "2020-09-13 12:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-13 18:00:00",
+                        "highestTemperature": "27",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "27",
+                        "precipitation": "0",
+                        "startTime": "2020-09-13 15:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-13 21:00:00",
+                        "highestTemperature": "24",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "24",
+                        "precipitation": "0",
+                        "startTime": "2020-09-13 18:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-14 00:00:00",
+                        "highestTemperature": "23",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "23",
+                        "precipitation": "0",
+                        "startTime": "2020-09-13 21:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-14 03:00:00",
+                        "highestTemperature": "23",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "23",
+                        "precipitation": "0",
+                        "startTime": "2020-09-14 00:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-14 06:00:00",
+                        "highestTemperature": "22",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "22",
+                        "precipitation": "0",
+                        "startTime": "2020-09-14 03:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    },
+                    {
+                        "endTime": "2020-09-14 09:00:00",
+                        "highestTemperature": "22",
+                        "img": "0",
+                        "isRainFall": "",
+                        "lowerestTemperature": "22",
+                        "precipitation": "0",
+                        "startTime": "2020-09-14 06:00:00",
+                        "wd": "",
+                        "weather": "晴",
+                        "ws": ""
+                    }
+                ]
+            },
+            "weathers": [
+                {
+                    "date": "2020-09-13",
+                    "img": "1",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "28",
+                    "temp_day_f": "82.4",
+                    "temp_night_c": "21",
+                    "temp_night_f": "69.8",
+                    "wd": "",
+                    "weather": "多云",
+                    "week": "星期日",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-14",
+                    "img": "2",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "29",
+                    "temp_day_f": "84.2",
+                    "temp_night_c": "20",
+                    "temp_night_f": "68.0",
+                    "wd": "",
+                    "weather": "阴",
+                    "week": "星期一",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-15",
+                    "img": "7",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "27",
+                    "temp_day_f": "80.6",
+                    "temp_night_c": "22",
+                    "temp_night_f": "71.6",
+                    "wd": "",
+                    "weather": "小雨",
+                    "week": "星期二",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-16",
+                    "img": "7",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "27",
+                    "temp_day_f": "80.6",
+                    "temp_night_c": "21",
+                    "temp_night_f": "69.8",
+                    "wd": "",
+                    "weather": "小雨",
+                    "week": "星期三",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-17",
+                    "img": "8",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "25",
+                    "temp_day_f": "77.0",
+                    "temp_night_c": "20",
+                    "temp_night_f": "68.0",
+                    "wd": "",
+                    "weather": "中雨",
+                    "week": "星期四",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-18",
+                    "img": "7",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "24",
+                    "temp_day_f": "75.2",
+                    "temp_night_c": "18",
+                    "temp_night_f": "64.4",
+                    "wd": "",
+                    "weather": "小雨",
+                    "week": "星期五",
+                    "ws": ""
+                },
+                {
+                    "date": "2020-09-12",
+                    "img": "7",
+                    "sun_down_time": "18:04",
+                    "sun_rise_time": "05:39",
+                    "temp_day_c": "27",
+                    "temp_day_f": "80.6",
+                    "temp_night_c": "20",
+                    "temp_night_f": "68.0",
+                    "wd": "",
+                    "weather": "小雨",
+                    "week": "星期六",
+                    "ws": ""
+                }
+            ]
+        }
+    ]
+}
