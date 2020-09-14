@@ -1,5 +1,5 @@
 from getWeatherStats import WeatherDataSource
-import datetime
+import datetime,re,traceback
 
 dataSource = WeatherDataSource()
 
@@ -10,38 +10,48 @@ def hourly_report(predictLength=12):
     # analyse stats from meizu weather
     mzstartTime = None
     mzWarningLevel = 0
-    mz = dataSource.get_meizu()
-    forecastList = mz["weather3HoursDetailsInfos"]
-    for i in range(min(len(forecastList),int(predictLength/3))):
-        # utmost as long as 12 hours
-        weather = forecastList[i]['weather']
-        mzstartTime = forecastList[i]['startTime']
-        if '雨' in weather:
-            mzWarningLevel += 1
-            if i == 0:
+    try:
+        mz = dataSource.get_meizu()
+        forecastList = mz["weather3HoursDetailsInfos"]
+        for i in range(min(len(forecastList),int(predictLength/3))):
+            # utmost as long as 12 hours
+            weather = forecastList[i]['weather']
+            mzstartTime = forecastList[i]['startTime']
+            if '雨' in weather:
                 mzWarningLevel += 1
-            break
-    if mzWarningLevel == 0:
-        mzstartTime = None
+                if i == 0:
+                    mzWarningLevel += 1
+                break
+        # mzstartTime = re.findall(r"(.*)\+08.*$", mzstartTime)[0]
+        if mzWarningLevel == 0:
+            mzstartTime = None
+    except Exception as e:
+        print("Error: meizu api parse failed")
+        print(traceback.format_exc())
 
     #analyse stats from xiaomi weather
-    xm = dataSource.get_xiaomi()["weather"]
-    forecastList = xm["value"]
-    xmstartTime = None
-    xmWarningLevel = 0
-    startTime = datetime.datetime.strptime(xm["pubTime"], "%Y-%m-%dT%H:%M:%S+08:00")
-    for i in range(min(len(forecastList),predictLength)):
-        weather = forecastList[i]
-        startTime += datetime.timedelta(hours=1)
-        # weather code > 2 means it's not 晴,多云 or 阴
-        if weather > 2:
-            xmWarningLevel += 1
-            if i < 3:
+    try:
+        xm = dataSource.get_xiaomi()["weather"]
+        forecastList = xm["value"]
+        xmstartTime = None
+        xmWarningLevel = 0
+        startTime = datetime.datetime.strptime(xm["pubTime"], "%Y-%m-%dT%H:%M:%S+08:00")
+        for i in range(min(len(forecastList),predictLength)):
+            weather = forecastList[i]
+            startTime += datetime.timedelta(hours=1)
+            # weather code > 2 means it's not 晴,多云 or 阴
+            if weather > 2:
                 xmWarningLevel += 1
-            break
-    xmstartTime = startTime.strftime("%Y-%m-%d %H:%M:%S+08:00")
-    if xmWarningLevel == 0:
-        xmstartTime = None    
+                if i < 3:
+                    xmWarningLevel += 1
+                break
+        xmstartTime = startTime.strftime("%Y-%m-%d %H:%M:%S")
+        if xmWarningLevel == 0:
+            xmstartTime = None    
+    except:
+        print("Error: xiaomi api parse failed")
+        print(traceback.format_exc())
+    
     
     warningLevel += mzWarningLevel
     warningLevel += xmWarningLevel
