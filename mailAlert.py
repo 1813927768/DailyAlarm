@@ -27,6 +27,8 @@ def alarm_email(warningLevel=0,xmstartTime="2020",mzstartTime="2020"):
         print('已发送邮件')
     except smtplib.SMTPException:
          print('Error: 无法发送邮件')
+         return False
+    return True
     
    
 

@@ -6,3 +6,8 @@ DailyAlarm is a system to remind you of trivial things.
 - send you an alert in wechat to take your clothes back in rainy days
 
 
+## todo
+
+- error handleing 
+- daily report 
+

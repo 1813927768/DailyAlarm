@@ -3,6 +3,7 @@ import json
 from urllib.parse import urlencode,quote
 from config import templateCode,appCode,secretKey
 
+# wechat alert is implemented by https://manage.wangfengta.com/
 def alarm_wechat(warningLevel="4",xmstartTime="2021",mzstartTime="2020"):
     settings = {'templateCode':templateCode,'appCode':appCode,'secretKey':secretKey}
     params = {"warningLevel":str(warningLevel),"xmstartTime":xmstartTime,"mzstartTime":mzstartTime}
