@@ -8,6 +8,8 @@ DailyAlarm is a system to remind you of trivial things.
 ## todo
 
 - daily report 
+- multiple user config files
+- more usable config change
 
 ## Notice
 

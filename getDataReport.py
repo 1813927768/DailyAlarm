@@ -56,6 +56,7 @@ def hourly_report(predictLength=12):
     warningLevel += mzWarningLevel
     warningLevel += xmWarningLevel
     
+    print("Info: 风险等级: %d; 开始时间：小米天气 %s， 魅族天气 %s"%(warningLevel,xmstartTime,mzstartTime))
     return warningLevel,mzstartTime,xmstartTime
 
 

@@ -11,6 +11,7 @@ def alarm_wechat(warningLevel="4",xmstartTime="2021",mzstartTime="2020"):
         params = {"warningLevel":str(warningLevel),"xmstartTime":xmstartTime,"mzstartTime":mzstartTime}
         params = quote(json.dumps(params))
         res = requests.get("https://api.wangfengta.com/api/alarm",{**settings,"params":params})
+        print("Wechat Alert has been sent")
     except:
         print("Error: wechat alert api failed")
         print(traceback.format_exc())

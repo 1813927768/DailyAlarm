@@ -25,7 +25,7 @@ def alarm_email(warningLevel=0,xmstartTime="2020",mzstartTime="2020"):
         server.login(from_addr, password)
         server.sendmail(from_addr, to_addr, msg.as_string())
         server.quit()
-        print('mails have been sent')
+        print('Info: mails have been sent')
     except smtplib.SMTPException:
         print("Error: mails can't be sent")
         print(traceback.format_exc())
