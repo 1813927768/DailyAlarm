@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Alarm</title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <script>
+        document.write(
+          '<script src="http://' +
+            (location.host || '${1:localhost}').split(':')[0] +
+            ':35729/livereload.js?snipver=1"></' +
+            'script>'
+        );
+    </script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="stateManagement.js"> </script>
+    
+</head>
+
+<body>
+    <center>
+        <div class="item">
+            <div class="switch-text item-left">Switch:</div> 
+            <!-- Rectangular switch -->
+            <div class="item-right">
+                <label class="switch">
+                    <input id="switch" type="checkbox" onclick="setSwitchState()">
+                    <span class="slider"></span>
+                </label>
+            </div>         
+        </div>
+        <div class="item">
+            <div class="item-left">wechat-alert:</div> 
+            <!-- Rounded switch -->
+            <div class="item-right">
+                <label class="switch">
+                    <input type="checkbox" id="wechat-alert" onclick="setAlertState('wechat')">
+                    <span class="slider round"></span>
+                </label>
+            </div>      
+        </div>
+        <div class="item">
+            <div class="item-left">mail-alert:</div> 
+            <!-- Rounded switch -->
+            <div class="item-right">
+                <label class="switch">
+                    <input type="checkbox" id="mail-alert" onclick="setAlertState('mail')">
+                    <span class="slider round"></span>
+                </label>
+            </div>          
+        </div>
+    </center>    
+</body>
+</html>
+
