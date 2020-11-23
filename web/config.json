@@ -1,5 +1,1 @@
-{
-    "switch": true,
-    "mail_alert": false,
-    "wechat_alert": false
-}
+{"switch": "true", "mail_alert": "false", "wechat_alert": "true"}

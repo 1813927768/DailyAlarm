@@ -3,9 +3,6 @@ from io import BytesIO
 import os
 import sys
 from urllib.parse import urlparse
-
-sys.path.append("../")
-from DailyAlarm.config import switch, wechat_alert, mail_alert
 import json
 
 mimedic = [
@@ -20,6 +17,8 @@ mimedic = [
     (".txt", "text/plain"),
     (".avi", "video/x-msvideo"),
 ]
+
+repo_path = "/root/repos/DailyAlarm/web"
 
 
 class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
@@ -38,7 +37,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 
         if send_reply:
             try:
-                with open("/root/repos/DailyAlarm/web/%s" % file_path, "rb") as f:
+                with open("%s/%s" % (repo_path, file_path), "rb") as f:
                     content = f.read()
                     self.send_response(200)
                     self.send_header("Content-type", mime_type)
@@ -53,14 +52,12 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
             body = self.rfile.read(content_length)
             for pairs in str(body)[1:].strip("'").split("&"):
                 key, val = pairs.split("=")
-                cmd = (
-                    "perl -p -i -e 's/(?<=%s\s=\s).*$/%s/g' /root/repos/DailyAlarm/config.py"
-                    % (key, val)
-                )
-                print("EXCECUTED:  %s" % cmd)
-                os.system(cmd)
-        except OSError:
-            pass
+                config_json = json.load(open("%s/config.json" % (repo_path), "r"))
+                config_json[key] = val
+                json.dump(config_json, open("%s/config.json" % (repo_path), "w"))
+
+        except OSError as e:
+            print(e)
         finally:
             self.send_response(200)
             self.end_headers()
